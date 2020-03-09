@@ -1,0 +1,155 @@
+.modmp-location-block{
+    display: inline-block;
+    font-size: 10pt;
+}
+.modmp-location-block div{
+    float: left;
+}
+.modmp-location-block div span{
+    display: block;
+}
+.modmp-location-block div.icon img{
+    width: 40px;
+    height: 45px;
+    margin-top: -8px;
+    margin-right: -6px;
+}
+
+/* Seller signup - add store's physical address form  */
+#physical_stores_locations{
+	display: none;
+}
+#physical_stores_locations button{
+    background: rgb(48, 62, 78);
+    color: rgb(251, 251, 251);
+    padding: 8px;
+    margin: 2px;
+    border: none;
+    border-radius: 2px;
+}
+
+#physical_stores_locations input[type="text"]{
+    background: rgb(246, 247, 249);
+    color: rgb(48, 62, 78);
+    border: 2px solid rgb(48, 62, 78);
+    border-radius: 2px;
+    padding: 6px;
+    margin: 2px;
+}
+#physical_stores_locations input[type="text"]::placeholder{
+    color: rgba(48, 62, 78, 0.8);
+}
+
+#physical_stores_locations #add_address_form .inputs,
+#locations .store-location{
+	display: none;
+    padding: 5px;
+    margin: 5px;
+    background: rgb(251, 251, 251);
+    color: rgb(48, 62, 78);
+    font-size: 12pt;
+}
+#locations .store-location #store_name{
+    font-size: 14pt;
+    text-decoration: underline;
+}
+#locations .store-location em{
+    font-weight: bold;
+}
+#locations .store-location ul{
+    margin-bottom: 0px;
+}
+#locations .store-location ul li
+{
+    list-style-type: '- ';
+    margin-left: 25px;
+}
+
+#physical_stores_locations #add_address_form .inputs .close-form,
+#locations .store-location button{
+    background: transparent;
+    color: rgb(140, 180, 126);
+    border: 1px solid rgb(140, 180, 126);
+    padding: 3px;
+    font-size: 10pt;
+    line-height: 0.9; 
+}
+#physical_stores_locations #add_address_form .inputs .close-form{
+    display: block;
+    position: relative;
+    padding: 4px;
+    padding-right: 3px;
+    float: right;
+}
+#physical_stores_locations #add_address_form .buttons{
+    display: block;
+    text-align: center;
+    padding: 6px;
+    margin: 0 auto;
+}
+#physical_stores_locations #add_address_form .buttons #save{
+    display: none;
+    opacity: 0.6;
+}
+#physical_stores_locations .errors_display{
+    text-align: center;
+    font-size: 12pt;
+    color: red;
+}
+
+/* Product distance */
+.modmp-product-distance .icon img{
+    width: 16px;
+    height: 16px;
+    margin-top: -2px;
+    margin-right: -3px;
+}
+.modmp-product-distance .text{
+    margin-left: -3px;
+}
+
+/* Product miniature distance */
+.product-miniature .modmp-product-distance{
+    font-size: 9pt;
+    margin-top: -10px;
+}
+.product-miniature .modmp-product-distance img{
+    width: 13px;
+    height: 13px;
+}
+
+/* Google Maps */
+.location-map-wrapper,
+.google-map{
+    width: 350px;
+    height: 290px;
+}
+.location-map-wrapper{
+    margin: 10px;
+}
+.location-map-title{
+    display: none;
+    margin-bottom: 5px;
+}
+.location-map-title span{
+    display: inline-block;
+}
+.location-map-title span.title-txt{
+    font-size: 14pt;
+    font-weight: bold;
+}
+.location-map-title span.distance{
+    float: right;
+}
+
+/* Leo Bicmart theme's style fixes */
+.header-top a:link,
+.header-top a:visited
+{
+    color: #19c868;
+}
+.header-top a:hover
+{
+    text-decoration: underline;
+}
+
